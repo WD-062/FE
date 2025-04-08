@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.5;
+    height: 200vh;
+  }
+  
+  #p-relative {
+    position: relative;
+    top: 50px;
+    left: 40px;
+    width: 100%;
+    background-color: gray;
+  }
+  
+  #p-fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: lightblue;
+  }
+  
+  #p-absolute {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    background-color: lightgreen;
+  }
+  
+  #p-sticky {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: lightcoral;
+  }
