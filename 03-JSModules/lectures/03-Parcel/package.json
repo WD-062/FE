@@ -1,0 +1,13 @@
+{
+  "name": "parcel-example",
+  "version": "1.0.0",
+  "description": "A simple example to demonstrate Parcel bundler",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
